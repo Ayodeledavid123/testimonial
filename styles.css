@@ -40,9 +40,11 @@ img{
 .name{
     font-weight: 800;
     color: white;
+    margin-bottom: 5px;
 }
 .status{
     color: hsl(0, 0%, 81%);
+    margin-top: 5px;
 }
 .testimonial2{
     background-color: white;
@@ -117,6 +119,7 @@ img{
 .quoted, .status{
     opacity: 0.5
 }
+
 @media (max-width: 675px) {
     .testimonials{
         display: flex;
